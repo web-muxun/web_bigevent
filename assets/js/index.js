@@ -31,6 +31,7 @@
         });
     }
 
+    //  渲染用户头像
     function renderAvatar(user) {
         var name = user.nickname || user.username
         $('#welcome').html('欢迎&nbsp;&nbsp;' + name)
